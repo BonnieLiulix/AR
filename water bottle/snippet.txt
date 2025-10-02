@@ -1,0 +1,14 @@
+<model-viewer src="water.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.054292712239258925m 0.35411625455750506m 0.03181237204423093m" data-normal="0.03894860209128833m -0.02959506054478938m 0.9988028528125482m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">編織水杯套</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
